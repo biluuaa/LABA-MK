@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Авто Гараж</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(135deg, #1a1a1a, #333);
+      color: white;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+    }
+
+    .container {
+      text-align: center;
+    }
+
+    h1 {
+      font-size: 2.5rem;
+      margin-bottom: 40px;
+      color: #ff0000;
+    }
+
+    .btn {
+      display: block;
+      width: 240px;
+      padding: 16px;
+      margin: 15px auto;
+      font-size: 1.2rem;
+      font-weight: bold;
+      color: white;
+      text-decoration: none;
+      border: none;
+      border-radius: 10px;
+      cursor: pointer;
+      transition: transform 0.2s, opacity 0.2s;
+    }
+
+    .btn-ferrari {
+      background-color: #ff0000; /* Красный Ferrari */
+    }
+
+    .btn-ferrari:hover {
+      background-color: #cc0000;
+      transform: scale(1.05);
+    }
+
+    .btn-lamborghini {
+      background-color: #ffb800; /* Жёлтый Lamborghini */
+      color: #000;
+    }
+
+    .btn-lamborghini:hover {
+      background-color: #e6a400;
+      transform: scale(1.05);
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Авто Гараж</h1>
+    <a href="ferrari.html" class="btn btn-ferrari">Ferrari</a>
+    <a href="lamborghini.html" class="btn btn-lamborghini">Lamborghini</a>
+  </div>
+</body>
+</html>
